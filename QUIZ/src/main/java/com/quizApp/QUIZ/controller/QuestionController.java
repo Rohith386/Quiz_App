@@ -19,8 +19,4 @@ public class QuestionController {
         return qS.getAllQuestion();
     }
 
-    @PostMapping("/add")
-    public Question addQuestion(@RequestBody Question q){
-        return qS.addQuestion(q);
-    }
 }

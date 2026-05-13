@@ -18,10 +18,6 @@ public class QuestionService {
         return questionrepo.findAll();
     }
 
-    public Question addQuestion(Question q){
-        return questionrepo.save(q);
-    }
-
 
 }
 
