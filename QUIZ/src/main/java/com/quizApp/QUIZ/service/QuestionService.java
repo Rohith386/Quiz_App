@@ -22,6 +22,9 @@ public class QuestionService {
         return questionrepo.save(q);
     }
 
+    public List<Question> getQuestions(String language){
+        return questionrepo.findByLanguage(language);
+    }
 
 }
 
